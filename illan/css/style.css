@@ -1,0 +1,132 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7fa; 
+    color: #333; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.contenedor {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 320px;
+}
+
+h1 {
+    color: #4CAF50; 
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1.1rem;
+    color: #555;
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input[type="date"]:focus,
+textarea:focus {
+    border-color: #4CAF50; 
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    margin-bottom: 8px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.success-message {
+    color: #28a745; 
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+textarea::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+#get_all_notes_container {
+    max-height: 700px;
+    max-width: 500px;
+    overflow-y: scroll;
+    overflow-x:hidden;
+}
+
+#toggleNotasBtn {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    width: 50%;
+    transition: background-color 0.3s ease;
+    margin-bottom: 4px;
+}
+
+.h2Notas {
+    text-align: center;
+    
+}
+
+.eliminarLi {
+    width: 50%;
+
+}
+
